@@ -8,13 +8,19 @@ echo "done install google chrome."
 
 echo "started install openjdk-8-jdk."
 sudo apt install openjdk-8-jdk
-java -version
-javac -version
 echo "started install openjdk-8-jdk."
 
 echo "started install openjdk-8-jre."
-sudo apt install openjdk-18-jre
+sudo apt install openjdk-8-jre
 echo "started install openjdk-8-jre."
+
+echo "started install openjdk-25-jdk."
+sudo apt install openjdk-25-jdk
+echo "started install openjdk-25-jdk."
+
+echo "started install openjdk-25-jre."
+sudo apt install openjdk-25-jre
+echo "started install openjdk-25-jre."
 
 echo "started install intellij-idea."
 sudo snap install intellij-idea-community --classic
@@ -25,3 +31,5 @@ sudo apt update
 sudo apt install git
 echo "done install git."
 
+java -version
+javac -version
