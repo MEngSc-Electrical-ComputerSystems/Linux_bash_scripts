@@ -35,6 +35,8 @@ echo "***started install intellij-idea."
 sudo snap install intellij-idea-community --classic
 echo "***done install intellij-idea."
 
+sudo snap install --classic code
+
 sudo apt update
 sudo apt upgrade
 java -version
