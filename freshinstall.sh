@@ -32,7 +32,7 @@ sudo apt install build-essential gdb
 echo "***done install GCC toolchain."
 
 echo "***started install intellij-idea."
-sudo snap install intellij-idea-community --classic
+sudo snap install intellij-idea --channel=2025.3/stable --classic
 echo "***done install intellij-idea."
 
 sudo snap install --classic code
