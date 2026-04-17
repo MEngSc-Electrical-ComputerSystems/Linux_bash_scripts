@@ -37,7 +37,12 @@ echo "***done install intellij-idea."
 
 sudo snap install --classic code
 
+git config --global user.name "OpenAvril"
+git config --global user.email "Jasper.Assembly@icloud.com"
+
+
 sudo apt update
 sudo apt upgrade
 java -version
 javac -version
+git config --list
