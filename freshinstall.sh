@@ -1,7 +1,9 @@
 #!/bin/bash
 echo "fresh install bash script."
+sudo apt update
+sudo apt upgrade
 
-echo "***started install google chrome."
+echo"***started install google chrome."
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 echo "***done install google chrome."
@@ -59,9 +61,7 @@ git config --global user.email "brentonjames.uni@icloud.com"
 git config --global user.name "OpenAvril"
 git config --global user.email "Jasper.Assembly@icloud.com"
 
-
 sudo apt update
 sudo apt upgrade
 java -version
 javac -version
-git config --list
