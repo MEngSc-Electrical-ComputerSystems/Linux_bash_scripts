@@ -40,9 +40,18 @@ sudo snap install --classic code
 echo "***done install vs code."
 
 echo "***started install winetricks."
+sudo dpkg --add-architecture i386
+sudo mkdir -p /etc/apt/keyrings
+sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/noble/winehq-noble.sources
 sudo apt update
-sudo apt install wine64 winetricks
+sudo apt install --install-recommends winehq-stable
 echo "***done install winetricks."
+
+echo "***started install play on linux."
+sudo apt update
+sudo apt install playonlinux
+echo "***done install play on linux."
 
 git config --global user.name "myBCompSc"
 git config --global user.email "brentonjames.uni@icloud.com"
