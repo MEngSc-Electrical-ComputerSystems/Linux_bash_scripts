@@ -35,7 +35,17 @@ echo "***started install intellij-idea."
 sudo snap install intellij-idea --channel=2025.3/stable --classic
 echo "***done install intellij-idea."
 
+echo "***started install vs code."
 sudo snap install --classic code
+echo "***done install vs code."
+
+echo "***started install winetricks."
+sudo apt update
+sudo apt install wine64 winetricks
+echo "***done install winetricks."
+
+git config --global user.name "myBCompSc"
+git config --global user.email "brentonjames.uni@icloud.com"
 
 git config --global user.name "OpenAvril"
 git config --global user.email "Jasper.Assembly@icloud.com"
