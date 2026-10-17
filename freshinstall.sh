@@ -17,7 +17,7 @@ sudo snap install intellij-idea --channel=2026.1/stable --classic -y
 sudo snap install clion --classic -y
 sudo apt remove --purge libreoffice*
 sudo apt autoremove
-#https://sourceforge.net/projects/openofficeorg.mirror/files/4.1.16/binaries/en-GB/Apache_OpenOffice_4.1.16_Linux_x86-64_install-deb_en-GB.tar.gz/download
+#Google Search "https://sourceforge.net/projects/openofficeorg.mirror/files/4.1.16/binaries/en-GB/Apache_OpenOffice_4.1.16_Linux_x86-64_install-deb_en-GB.tar.gz/download"
 tar -xvf Apache_OpenOffice_4.1.16_Linux_x86-64_install-deb_en-GB.tar.gz
 cd en-GB/DEBS/
 sudo dpkg -i *.deb
@@ -29,4 +29,6 @@ sudo apt update
 sudo apt install wine64 winetricks -y
 WINEARCH=win64 WINEPREFIX=~/.adobe_wine winecfg
 WINEARCH=win64 WINEPREFIX=~/.adobe_wine winetricks mspatcha atmlib allfonts
+#Google Search "https://www.officeworks.com.au/shop/officeworks/p/adobe-acrobat-classic-3-year-education-esd-auadob108"
+
 
