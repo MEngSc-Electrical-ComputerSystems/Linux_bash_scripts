@@ -13,7 +13,7 @@ nano freshinstall.sh
 echo "Hello, World!"
 ````
 
-## 4. Make the Script Executable
+## Make the Script Executable
 ````
 chmod +x freshinstall.sh
 ````
