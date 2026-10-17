@@ -3,7 +3,7 @@ my Linux bash scripts.
 
 ## Create a New File.
 ````
-nano myscript.sh
+nano freshinstall.sh
 ````
 
 ## Write Your Commands
@@ -15,10 +15,10 @@ echo "Hello, World!"
 
 ## 4. Make the Script Executable
 ````
-chmod +x myscript.sh
+chmod +x freshinstall.sh
 ````
 
 ## Run the Script
 ````
-./myscript.sh
+./freshinstall.sh
 ````
