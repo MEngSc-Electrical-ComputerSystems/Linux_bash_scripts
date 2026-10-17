@@ -25,7 +25,7 @@ cd desktop-integration/
 sudo dpkg -i *.deb
 sudo apt install gimp -y
 sudo dpkg --add-architecture i386
-sudo apt update
+sudo apt update -y
 sudo apt install wine64 winetricks -y
 WINEARCH=win64 WINEPREFIX=~/.adobe_wine winecfg
 WINEARCH=win64 WINEPREFIX=~/.adobe_wine winetricks mspatcha atmlib allfonts
