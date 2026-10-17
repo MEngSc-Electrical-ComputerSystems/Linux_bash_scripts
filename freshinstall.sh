@@ -1,8 +1,8 @@
 #!/bin/bash
-sudo apt update
-sudo apt upgrade
+sudo apt update -y
+sudo apt upgrade -y
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
 sudo apt install openjdk-8-jdk -y
 sudo apt install openjdk-8-jre -y
 sudo apt install openjdk-25-jdk -y
@@ -29,6 +29,4 @@ sudo apt update
 sudo apt install wine64 winetricks -y
 WINEARCH=win64 WINEPREFIX=~/.adobe_wine winecfg
 WINEARCH=win64 WINEPREFIX=~/.adobe_wine winetricks mspatcha atmlib allfonts
-cd /run/media/brentonjames/20210210_0023
-WINEARCH=win64 WINEPREFIX=~/.adobe_wine wine Setup.exe
-sudo apt install steam
+
